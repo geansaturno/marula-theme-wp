@@ -1,0 +1,15 @@
+.imoveis-listagem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 2rem;
+}
+
+.imoveis-listagem-item {
+    flex-basis: 30%;
+    margin-bottom: 1.5em;
+
+    &:not(:nth-child(3n)){
+        margin-top: 5%;
+    }
+}
