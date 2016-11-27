@@ -1,0 +1,18 @@
+{
+  "name": "marula",
+  "homepage": "https://github.com/geansaturno/marula-theme-wp",
+  "authors": [
+    "Gean Saturno <cronosnaeg@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
