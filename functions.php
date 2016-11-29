@@ -30,4 +30,9 @@ function postTypes(){
     register_post_type('imovel', $args);
 }
 
+function menus(){
+    register_nav_menu('header-menu', 'main-menu');
+}
+
 add_action('init', 'postTypes');
+add_action('init', 'menus');
