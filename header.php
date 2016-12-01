@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?=$root_dir?>/assets/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="<?=$root_dir?>/style.css" type="text/css" />
-    <link rel="stylesheet" href="<?=$root_dir?>/assets/css/yuri.css" type="text/css" />
+    <link rel="stylesheet" href="<?=$root_dir?>/assets/css/comum.css" type="text/css" />
+    <link rel="stylesheet" href="<?=$root_dir?>/assets/css/header.css" type="text/css" />
+    <link rel="stylesheet" href="<?=$root_dir?>/assets/css/<?=$css_especifico?>.css" type="text/css" />
     <?php wp_head() ?>
 </head>
 <body>
