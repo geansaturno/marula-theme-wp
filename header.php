@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="<?=$root_dir?>/assets/css/comum.css" type="text/css" />
     <link rel="stylesheet" href="<?=$root_dir?>/assets/css/header.css" type="text/css" />
     <link rel="stylesheet" href="<?=$root_dir?>/assets/css/<?=$css_especifico?>.css" type="text/css" />
-    <?php wp_head() ?>
+
+    <title><?= geraTitle()?></title>
 </head>
 <body>
 

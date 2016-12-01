@@ -34,5 +34,16 @@ function menus(){
     register_nav_menu('header-menu', 'main-menu');
 }
 
+function geraTitle(){
+
+    bloginfo('name');
+
+    if(!is_home()){
+        echo ' | ';
+        the_title();
+    }
+
+}
+
 add_action('init', 'postTypes');
 add_action('init', 'menus');
