@@ -18,6 +18,19 @@
                 <span class="single-imovel-data">
                     <?php the_date() ?>
                 </span>
+
+                <?php $imovelMetaInfo = $metaInfos = get_post_meta((int)$post->ID) ?>
+
+                <dl class="single-imovel-informacoes">
+                    <dt>Preço:</dt>
+                    <dd><?=$imovelMetaInfo['preco_id'][0]?></dd>
+                    <dt>Vagas:</dt>
+                    <dd><?=$imovelMetaInfo['vagas_id'][0]?></dd>
+                    <dt>Banheiros:</dt>
+                    <dd><?=$imovelMetaInfo['banheiros_id'][0]?></dd>
+                    <dt>Quartos:</dt>
+                    <dd><?=$imovelMetaInfo['quartos_id'][0]?></dd>
+                </dl>
             </div>
         <?php endwhile ?>
     <?php endif ?>
